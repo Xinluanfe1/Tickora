@@ -2,7 +2,7 @@
 
 ![Tickora](resources/brand/tickora_logo.png)
 
-Tickora 是一款面向 Windows 的本地待办清单桌面应用，使用 Python + PyQt6 开发。任务和设置都保存在本机，不需要账号、服务器或云同步。
+Tickora 是一款面向 Windows 的轻量化本地待办清单桌面应用，使用 Python + PyQt6 开发。任务和设置都保存在本机，不需要账号、服务器或云同步。
 
 ## 功能
 
