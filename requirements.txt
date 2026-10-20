@@ -1,0 +1,2 @@
+PyQt6>=6.5
+windows-toasts>=1.3

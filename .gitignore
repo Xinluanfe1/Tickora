@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 应用用户数据（本地运行，不提交）
+/settings.json
+/user_data/
+instance.lock
+*.tmp
