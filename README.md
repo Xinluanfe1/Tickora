@@ -2,6 +2,8 @@
 
 ![Tickora](resources/brand/tickora_logo.png)
 
+![界面截图](docs/screenshot.png)
+
 Tickora 是一款面向 Windows 的本地待办清单桌面应用，基于 Python 与 PyQt6 开发。任务和设置保存在本机，不需要账号、服务器或云同步。
 
 > **当前版本：v0.1.0（MVP / Minimum Viable Product，最小可行产品）**。这是面向本地任务管理与截止提醒的首个正式版本。
@@ -162,8 +164,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build.ps1
 - 不支持搜索、账号登录、云同步、数据库、周期任务、子任务或在线更新。
 - 当前仅发布 Windows 版本，任务数据不跨设备同步。
 - 极端情况下，首次启动时若同时启动多个实例，可能出现两个空的默认任务集；保留有任务的一个即可。
-
-![界面截图](docs/screenshot.png)
 
 ---
 
