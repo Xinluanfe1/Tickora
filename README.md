@@ -42,8 +42,6 @@ Tickora 是一款面向 Windows 的本地待办清单桌面应用，基于 Pytho
 36726C00BF4DF0E60A77DFE3452CA317906DFD8FF3C0CAC9E70F254DE467ACC7
 ```
 
-> 当前 GitHub 仓库为私有仓库，下载 Release 附件需要具备仓库访问权限的 GitHub 账号。
-
 ## 使用说明
 
 ### 任务管理
@@ -159,7 +157,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build.ps1
 
 ## 已知限制与注意事项
 
-- 安装包是私有仓库中的未签名构建，Windows SmartScreen 可能提示；本说明不声称已签名或通过 Windows 安全认证。
+- 安装包当前未做数字签名，Windows SmartScreen 可能提示；本说明不声称已签名或通过 Windows 安全认证。
 - 提醒依赖 Tickora 正在运行；完全退出或电脑关机时不会发送提醒。
 - 不支持搜索、账号登录、云同步、数据库、周期任务、子任务或在线更新。
 - 当前仅发布 Windows 版本，任务数据不跨设备同步。
