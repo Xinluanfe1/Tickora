@@ -164,3 +164,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build.ps1
 - 极端情况下，首次启动时若同时启动多个实例，可能出现两个空的默认任务集；保留有任务的一个即可。
 
 ![界面截图](docs/screenshot.png)
+
+---
+
+后续版本的更新计划与技术开发说明，请参阅 [《Tickora 开发说明》](安装版开发说明.md)。
