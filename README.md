@@ -167,4 +167,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build.ps1
 
 ---
 
-后续版本的更新计划与技术开发说明，请参阅 [《Tickora 开发说明》](安装版开发说明.md)。
+后续版本的更新计划与技术开发说明，请参阅 [《Tickora 开发说明》](开发说明.md)。
