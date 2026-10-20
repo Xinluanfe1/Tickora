@@ -1,0 +1,2 @@
+# 构建依赖（运行依赖见 requirements.txt）
+pyinstaller>=6.16

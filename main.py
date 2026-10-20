@@ -5,6 +5,11 @@ from __future__ import annotations
 import ctypes
 import sys
 
+# 供 Inno Setup 的 CloseApplications 识别正在运行的应用实例（安装/升级前要求退出）
+if sys.platform == "win32":
+    _kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+    _app_mutex_handle = _kernel32.CreateMutexW(None, False, "Tickora.TodoList.SingleInstance")
+
 from PyQt6.QtGui import QFont, QFontDatabase, QIcon
 from PyQt6.QtWidgets import QApplication, QMessageBox
 

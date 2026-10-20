@@ -224,3 +224,7 @@ __marimo__/
 /user_data/
 instance.lock
 *.tmp
+
+# 本地构建产物
+/dist_installer/
+!scripts/TodoList.spec
